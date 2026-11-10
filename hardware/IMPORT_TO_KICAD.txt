@@ -1,0 +1,17 @@
+STM32 Open Source Multimeter — hardware from:
+https://github.com/MartinD-CZ/STM32F1-open-source-multimeter/tree/master/hardware
+
+Format: Autodesk Eagle 9.3 (.sch / .brd / .lbr)
+
+Import into KiCad:
+1. Open KiCad
+2. File → Import → Non-KiCad Project… → Eagle Project
+3. Select: hardware/v15.sch  (main meter)
+   Optional: hardware/V15_USB_isolator.sch
+4. Save as a new KiCad project (e.g. Multimeter_v15.kicad_pro)
+5. Run Schematic Editor → Inspect → Electrical Rules Checker
+
+Preview PNGs: schematics_sheet1.png, schematics_sheet2.png, schematics_USB_isolator.png
+BOM: v15_BOM.txt
+
+License: see upstream repo (project uses CC BY-NC-SA 4.0 for firmware; check hardware terms on the project page).
