@@ -1,0 +1,60 @@
+(footprint "BANANA_6MMHOLE"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "1a71f246-ab77-40a7-b9dd-b06e33091f02")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4da46a28-e7ff-4cd5-a275-9da509dd5dd3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "93127f9f-ec58-409b-aabe-949eec6337a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5724ee60-00a9-4a72-bdc0-76d9c8f7a5c9")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "P$1" thru_hole circle
+		(at 0 0)
+		(size 8.89 8.89)
+		(drill 6.0198)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "0a843d63-71fc-41fc-a3db-7adbb759c7b2")
+	)
+	(embedded_fonts no)
+)
