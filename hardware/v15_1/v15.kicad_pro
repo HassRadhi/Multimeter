@@ -70,7 +70,16 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|161501100|76270000|348e816f-7238-4244-b056-9c3078594230|870746a5-bf6b-4c49-b74f-f8af63b50284",
+          ""
+        ],
+        [
+          "shorting_items|161501100|75000000|870746a5-bf6b-4c49-b74f-f8af63b50284|e93268b5-4bd0-4420-889e-347b44ec5b19",
+          ""
+        ]
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
