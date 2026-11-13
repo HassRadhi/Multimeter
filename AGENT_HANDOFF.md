@@ -39,17 +39,17 @@ Give this file (or paste it) to a new Cursor agent on the desktop.
 ## Firmware intent
 - From-scratch code on STM32F373
 - Little reuse of MartinD firmware (inspiration only)
+- Phased checklist: `docs/FIRMWARE.md` (do bit by bit)
 - Upstream firmware exists at:  
   https://github.com/MartinD-CZ/STM32F1-open-source-multimeter/tree/master/firmware-multimeter  
   (needed later for pin/ADC behaviour reference, not to copy wholesale)
 
 ## What to do next
-1. Confirm OLED header wiring + footprint in KiCad; run ERC; triage real errors only
-2. Commit/push schematic changes to GitHub
-3. Then: SSD1306 bring-up plan (pin map from MCU nets → SPI driver skeleton)
-4. Defer TFT, full AFE redesign, and enclosure CAD until display + basic UI work
+1. Firmware Phase 0 → 1 in `docs/FIRMWARE.md` (skeleton, then SSD1306 bring-up)
+2. Defer TFT, full AFE redesign, and enclosure CAD until display + basic UI work
 
 ## Constraints / style
+- Full guide: `docs/CODE_STYLE.md`
 - Prefer smallest change that works
 - Australian English in user-facing copy
 - Don’t invent CAT ratings or claim mains safety
